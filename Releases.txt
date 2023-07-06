@@ -1,0 +1,7 @@
+v1.0.0
+
+1) Basic arithmetic operations are included
+	i)   Addition
+	ii)  Subtraction
+	iii) Multiplication
+	iv)  Division
