@@ -11,10 +11,11 @@ while True: #Used to repeat a block of code continously. A logic must be given t
     print("2. Subtraction")
     print("3. Multiplication")
     print("4. Division")
+    print("5. Power")
     print("0. Quit")
 
 #Choice of arithmetic operation is asked to the user and respective functions are called depending upon choice
-    choice = int(input("\nEnter 1 for Addition, 2 for Subtraction, 3 for Multiplication, 4 for Division, 0 for quitting the program..."))
+    choice = int(input("\nEnter 1 for Addition, 2 for Subtraction, 3 for Multiplication, 4 for Division, 5 for Power, 0 for quitting the program..."))
     if choice == 1:
         # Inputs are taken from the user
         num1 = int(input("Enter a number..."))
@@ -38,6 +39,12 @@ while True: #Used to repeat a block of code continously. A logic must be given t
         num1 = int(input("Enter a number..."))
         num2 = int(input("Enter a number..."))
         result = div(num1, num2)
+        print("The result is {}".format(result))
+    elif choice == 5:
+        #Inputs are taken from the user
+        num = int(input("Enter the base number..."))
+        exp = int(input("Enter the exponent..."))
+        result = power(num, exp)
         print("The result is {}".format(result))
     elif choice == 0:
         print("Bye, See you soon!!!")
