@@ -1,7 +1,7 @@
 BASIC_CALCULATOR
 	
 Steps:-
-1) Following functions are defined:- add(), sub(), mul(), div().
+1) Following functions are defined:- add(), sub(), mul(), div(), power().
 2) The list of operations available are shown to the user.
 3) Choice is taken from the user.
 4) Values are taken from the user and respective functions are called according to the choice of user. 
